@@ -1,23 +1,23 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 Playground Minimal Starter
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
+This project use Nuxt ui to manage the project.
+Look at the [Nuxt ui documentation](https://ui.nuxt.com/getting-started) to learn more.
+
 ## Setup
 
-Make sure to install the dependencies:
+Make sure to install the dependencies with "yarn" is preferred:
 
 ```bash
-# npm
-npm install
+# in case not installed yard yet
+npm install -g yarn 
 
-# pnpm
-pnpm install
+# or use brew
+brew install yarn
 
-# yarn
+# yarn install dependencies
 yarn install
-
-# bun
-bun install
 ```
 
 ## Development Server
@@ -25,17 +25,8 @@ bun install
 Start the development server on `http://localhost:3000`:
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
+# yarn start server
 yarn dev
-
-# bun
-bun run dev
 ```
 
 ## Production
@@ -43,33 +34,17 @@ bun run dev
 Build the application for production:
 
 ```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
+# yarn build for production
 yarn build
-
-# bun
-bun run build
 ```
 
 Locally preview production build:
 
 ```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
+# yarn preview production build
 yarn preview
-
-# bun
-bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+This project is licensed under the [MIT License](./LICENSE).
